@@ -1,0 +1,45 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alex",
+      "email": "alex@example.com",
+      "projects": [
+        {
+          "id": 1,
+          "title": "CLI Tool",
+          "description": "Python project tracker",
+          "due_date": "2026-12-15",
+          "tasks": [
+            {
+              "id": 1,
+              "title": "Implement add-task",
+              "status": "done",
+              "assigned_to": "Alex"
+            },
+            {
+              "id": 2,
+              "title": "Write README",
+              "status": "pending",
+              "assigned_to": "Wanjiru"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Wanjiru",
+      "email": "wanjiru@example.com",
+      "projects": [
+        {
+          "id": 2,
+          "title": "Portfolio Website",
+          "description": "Personal site",
+          "due_date": "2026-11-30",
+          "tasks": []
+        }
+      ]
+    }
+  ]
+}
